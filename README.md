@@ -25,4 +25,7 @@ TreeMap<Key, Map.Entry> --->. LinkedHashMap<Key,Value> <----- TreeMap<Value, Map
 
 The above design _should_ provide all treeMap functionalities on Keys and Values. Also it should provide a way to jump filter pivots from Keys to Values using the Map.Entry
 
+TreeMap on Key and Value will provide _natural_ ordering on Keys and Values.
+LinkedHashMap will provide insertion ordering between the keys.
+
 WIP.
